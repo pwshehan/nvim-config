@@ -1,3 +1,3 @@
-require("pwshehan")
+require("pwshehan.remap")
 print("Hello")
 
