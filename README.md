@@ -36,3 +36,17 @@ This repository contains a custom configuration for Neovim, created by me.
 4. Install Plugins
 
    Open Neovim and run `:PackerSync`.
+
+### Windows
+
+2. Clone the Repository
+
+   ```powershell
+   git clone https://github.com/pwshehan/nvim-config.git $HOME\AppData\Local\nvim
+   ```
+
+3. Install Packer
+
+   ```powershell
+   git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+   ```
